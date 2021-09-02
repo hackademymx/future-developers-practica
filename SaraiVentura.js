@@ -1,5 +1,4 @@
 const englishAlphabet = "abcdefghijklmnopqrstuvwxyz".split('')
-
 const getCipherMap = (alphabet, shift) => {
     return alphabet.
         reduce((charsMap, currentChar, charIndex) => {
